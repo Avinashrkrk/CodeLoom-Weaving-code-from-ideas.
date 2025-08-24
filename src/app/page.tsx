@@ -17,7 +17,7 @@ export default  function  Home() {
       <div className="p-4 max-w-7xl mx-auto">
         <Input value={value} onChange={(e) => setValue(e.target.value)} />
         <Button onClick={() => invoke.mutate({ value: value })}>
-          Invoke Background Job
+          Enter to Invoke Background Job 
         </Button>
       </div>
     </>
